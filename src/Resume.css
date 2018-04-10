@@ -1,0 +1,263 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #18262f;
+  color: #a6afb8;
+  font-family: monospace;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 10px auto 0px;
+  max-width: 800px;
+  padding: 10px;
+}
+
+a {
+  color: #33b5e1;
+  text-decoration: none;
+}
+a.active:after,
+a.active:before {
+  content: '*';
+  color: #d73c9a;
+}
+p {
+  margin: 0 0 15px;
+}
+.page {
+  min-height: 300px;
+}
+.green {
+  color: #7cc844;
+}
+.blue {
+  color: #33b5e1;
+}
+.purple {
+  color: #a363d5;
+}
+.pink {
+  color: #d73c9a;
+}
+
+.resume {
+}
+
+.prompt:after {
+  content: ' ';
+}
+
+.command {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.input {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.links {
+  border: 1px solid #7cc844;
+  box-sizing: border-box;
+  padding: 5px;
+  width: calc(100vw - 20px);
+  max-width: 780px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.separator:after {
+  content: '|';
+  color: #7cc844;
+}
+
+.text-small {
+  font-size: 0.8em;
+}
+.text-right {
+  text-align: right;
+}
+
+/*FormIO styling*/
+
+textarea,
+input,
+button {
+  outline: none;
+  font-size: 1em;
+}
+
+input {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: #7cc844;
+  border: none;
+  border-bottom: 1px solid #33b5e1;
+}
+button {
+  color: #33b5e1;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #33b5e1;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  color: #18262f;
+  background-color: #33b5e1;
+}
+
+.alert-danger {
+  color: #ef5253;
+}
+.alert-success {
+  border: 1px solid #33b5e1;
+  padding: 5px;
+  color: #7cc844;
+}
+
+.alert ul {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.alert ul li {
+  display: block;
+}
+
+.help-block {
+  color: #e66b2b;
+  margin-top: 5px;
+  display: block;
+}
+
+.formio-form {
+  padding: 5px;
+  border: 1px solid #33b5e1;
+}
+.formio-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.formio-form li {
+  display: inline-block;
+}
+
+.formio-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #7cc844;
+}
+
+.formio-form label:before {
+  content: '-';
+}
+
+.formio-form .pagination {
+  color: #33b5e1;
+  margin-bottom: 5px;
+}
+
+.formio-form .pagination li.active {
+  color: #a6afb8;
+}
+
+.formio-form .pagination li:not(:last-child):after {
+  color: #a6afb8;
+  content: ' >';
+}
+
+.formio-form .pagination li:not(:first-child):before {
+  color: #a6afb8;
+  content: '> ';
+}
+.social-icon {
+  position: relative;
+  top: -2px;
+  font-size: 1.6em;
+}
+
+.ql-editor {
+  min-height: 250px;
+  color: #7cc844;
+  color: #33b5e1 !important;
+}
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border: 1px solid #33b5e1 !important;
+}
+.ql-snow .ql-picker {
+  color: #33b5e1 !important;
+}
+.quill-source-code {
+  display: none;
+}
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options,
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
+  background-color: #18262f;
+  color: #33b5e1 !important;
+  border-color: #33b5e1 !important;
+}
+.ql-snow .ql-stroke,
+svg {
+  stroke: #33b5e1 !important;
+}
+.ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  color: #7cc844 !important;
+}
+
+.footer {
+  display: flex;
+  background-color: #222e38;
+  border: 1px solid #222e38;
+}
+
+.footer .branch {
+  background-color: #586875;
+  padding: 5px;
+}
+.footer .madewith {
+  padding: 5px;
+}
