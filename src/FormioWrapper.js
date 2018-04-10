@@ -46,7 +46,8 @@ export default class FormIoWrapper extends React.Component {
 
   render() {
     const {loaded, submitted} = this.state;
-    const {src, successMessage, isServer} = this.props;
+    const {src, successMessage} = this.props;
+    const isServer = typeof window === 'undefined';
     const loader =
       loaded === false && isServer === false ? (
         <Loader characters="⣾⣽⣻⢿⡿⣟⣯⣷" />
