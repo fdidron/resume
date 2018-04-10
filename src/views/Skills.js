@@ -49,7 +49,7 @@ const SkillsContent = () => (
       <strong className="green">Devops: </strong>
       I'm a Linux enthusiast and have experience deploying scalable Node.JS
       applications on AWS and GCE, using VMs or Docker containers. I'm also
-      comfortable with Email servers, DNS servers, Field servers setup.
+      comfortable with Email servers, DNS servers, File servers setup.
     </p>
     <p>
       <strong className="green">Process: </strong>
