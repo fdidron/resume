@@ -17,7 +17,7 @@ const HomeContent = () => (
       <span className="text-small">Tokyo - Japan</span>
       <br />
       <span className="text-small blue">May 2011 – Present </span>
-      <br />Co-Founded 111Studio K.K, a japanese software development bilding
+      <br />Co-Founded 111Studio K.K, a japanese software development building
       custom sofware using a cutting edge technology stack.
     </p>
     <p>
@@ -28,7 +28,7 @@ const HomeContent = () => (
       <br />
       <span className="text-small blue">Jan 2013 – Mar 2015 </span>
       <br />Program Management for an APAC wide digital marketing program for
-      Google.
+      the leader of web search engines.
     </p>
     <p>
       <strong className="green">Validation Engineer @ Parrot </strong>

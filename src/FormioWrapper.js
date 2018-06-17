@@ -35,7 +35,8 @@ export default class FormIoWrapper extends React.Component {
     successMessage: 'Submission sent',
   };
 
-  handleFormLoad = () => {
+  handleFormLoad = form => {
+    console.log(form);
     this.setState({loaded: true});
   };
 

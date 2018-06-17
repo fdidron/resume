@@ -32,14 +32,6 @@ const SocialContent = () => (
     </p>
     <p>
       <ReactGA.OutboundLink
-        eventLabel="out-linkedin-profile"
-        to="https://www.linkedin.com/in/florian-didron"
-        target="_blank">
-        <LinkedIn className="social-icon" /> LinkedIn
-      </ReactGA.OutboundLink>
-    </p>
-    <p>
-      <ReactGA.OutboundLink
         eventLabel="out-reddit-profile"
         to="https://www.reddit.com/user/isidith/"
         target="_blank">
